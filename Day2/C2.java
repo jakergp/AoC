@@ -1,10 +1,12 @@
+package Day2;
+
 import java.io.*;
 import java.util.*;
 
 public class C2 {
     public static void main(String[] args) throws FileNotFoundException {
         if (args.length != 1) {
-            System.out.println("Usage: C1 <filename>");
+            System.out.println("Usage: Day4.C1 <filename>");
         } else {
             FileInputStream fis = new FileInputStream(args[0]);
             Scanner lines = new Scanner(fis);

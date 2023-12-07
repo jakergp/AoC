@@ -1,7 +1,7 @@
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Scanner;
+package Day3;
+
+import java.io.*;
+import java.util.*;
 
 public class C2 {
     public static void main(String[] args) throws FileNotFoundException {
